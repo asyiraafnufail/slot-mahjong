@@ -324,7 +324,7 @@ export default function Home() {
              <div className="w-24 h-24 bg-[#FFD700] rounded-full flex items-center justify-center shadow-[0_0_50px_#FFD700] mb-2 animate-bounce">
                 <span className="text-6xl">🐉</span>
              </div>
-             <h1 className="text-4xl xs:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-b from-yellow-300 to-yellow-600 drop-shadow-md tracking-tighter">MAHJONG WAYS</h1>
+             <h1 className="text-4xl xs:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-b from-yellow-300 to-yellow-600 drop-shadow-md tracking-tighter">JUDIIN BY RAFA</h1>
              <p className="text-white/80 text-lg md:text-xl font-light leading-relaxed animate-pulse">
                Halo <span className="text-yellow-400 font-bold">{user?.email?.split('@')[0]}</span>!<br/>
                Saldo: {balance.toLocaleString('id-ID')}<br/>
@@ -345,7 +345,7 @@ export default function Home() {
             {isMutedState ? "🔇" : "🔊"}
           </button>
           <button onClick={(e) => { e.stopPropagation(); setShowInfo(true); playSound("click"); }} className="absolute left-4 top-1 text-lg bg-black/40 w-8 h-8 rounded-full border border-yellow-600/50 flex items-center justify-center font-serif font-bold text-yellow-500 z-50">i</button>
-          <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-yellow-300 to-yellow-600 drop-shadow-sm tracking-tighter select-none">{isFreeSpinMode ? "FREE SPIN" : "MAHJONG"}</h1>
+          <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-yellow-300 to-yellow-600 drop-shadow-sm tracking-tighter select-none">{isFreeSpinMode ? "FREE SPIN" : "JUDIIN BY RAFA"}</h1>
           <button onClick={(e) => { e.stopPropagation(); setShowHistory(true); playSound("click"); }} className="absolute right-4 top-1 text-lg bg-black/40 w-8 h-8 rounded-full border border-yellow-600/50 flex items-center justify-center">📜</button>
         </div>
         
